@@ -26,4 +26,4 @@ Follow these steps to get the add-on installed on your system:
 
 ## Troubleshoot
 
-If you are having problems with the add-on, check the logs for error messages. Still having problems? Open a [issue](https://github.com/TECH7Fox/InspIRCd-add-on/issues) with the add-on logs and `ngircd.conf`file.
+If you are having problems with the add-on, check the logs for error messages. Still having problems? Open a [issue](https://github.com/TECH7Fox/NgIRCd-add-on/issues) with the add-on logs and `ngircd.conf`file.
