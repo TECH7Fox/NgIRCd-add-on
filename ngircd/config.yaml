@@ -1,7 +1,7 @@
 name: NgIRCd
-version: 0.1.0
+version: 0.1.1
 slug: ngircd
-description: IRC server
+description: Lightweight IRC server.
 url: https://github.com/TECH7Fox/NgIRCd-add-on
 image: "ghcr.io/tech7fox/{arch}-addon-ngircd"
 arch:
@@ -13,9 +13,5 @@ arch:
 map:
   - config:rw
   - ssl
-options:
-  password: password123
-schema:
-  password: password
 host_network: true
 init: false
