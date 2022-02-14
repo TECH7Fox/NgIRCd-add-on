@@ -1,2 +1,2 @@
-# Charybdis-add-on
+# ngircd-add-on
  IRC server

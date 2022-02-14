@@ -1,0 +1,21 @@
+name: Ngircd
+version: 0.1.0
+slug: ngircd
+description: IRC server
+url: https://github.com/TECH7Fox/Ngircd-add-on
+image: "ghcr.io/tech7fox/{arch}-addon-ngircd"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+map:
+  - config:rw
+  - ssl
+options:
+  password: password123
+schema:
+  ami_password: password
+host_network: true
+init: false
