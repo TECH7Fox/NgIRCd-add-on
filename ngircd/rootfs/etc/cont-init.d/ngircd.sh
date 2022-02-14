@@ -5,6 +5,4 @@
 
 # shellcheck shell=bash
 
-# set permissions
-chown ircd /etc/ngircd/ngircd.conf
-chmod 400 /etc/ngircd/ngircd.conf
+bashio::log.info "configure here!"
