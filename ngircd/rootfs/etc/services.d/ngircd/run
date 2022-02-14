@@ -9,4 +9,4 @@
 bashio::log.info "Starting NgIRCd..."
 
 ## Run ngircd
-exec /etc/init.d/ngircd start
+exec ngircd -n -f /etc/ngircd/ngircd.conf
