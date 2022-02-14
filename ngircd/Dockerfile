@@ -3,6 +3,6 @@ FROM $BUILD_FROM
 
 # Install ngircd
 RUN apk add --update --no-cache \
-    ngircd
+    ngircd=26.1-r2
 
 COPY rootfs /
